@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: "printing lowercase alphabet using putchar"
+ * Description: "printing lowercase alphabet using in reverse"
  * Return: 0 checks passed
-*/
+ */
 int main(void)
 {
+	int x;
 
-	while (c <= 122)
+	for (x = 122; x >= 97; x--)
 	{
-		putchar(c);
-		c++;
+		putchar(x);
 	}
-
 	putchar('\n');
+
 	return (0);
 }
