@@ -4,7 +4,7 @@
 /**
  * *_strdup - copies the string given as parameter
  * @str: string
- * Return : st (Success), NULL (Error)
+ * Return: pointer to the copied string else NULL
  */
 
 char *_strdup(char *str)
